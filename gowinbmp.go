@@ -7,7 +7,7 @@ import (
 	"image"
 )
 
-// Convert Unsiged 32-bit Int to Bytes.
+// Convert Unsigned 32-bit Int to Bytes.
 func uint32ToByte(num uint32) [4]byte {
 	var buf [4]byte
 	buf[0] = byte(num >> 0)
